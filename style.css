@@ -17,6 +17,9 @@ body{
 .pb-50{
     padding-bottom: 50px;
 }
+.pb-100{
+    padding-bottom: 100px;
+}
 .text-center{
     text-align: center;
 }
@@ -92,15 +95,15 @@ body{
     border-radius: 20px;
 }
 /* about-arae-start */
-.about-area{
+.about-area {
     background-position: center;
     background-size: cover;
-    height: 600px;
+    height: 570px;
 }
 .about-img img {
     width: 100%;
     margin-left: -39px;
-    height: 105%;
+    height: 100%;
 }
 
 /* receipe-area-strt */
@@ -120,7 +123,7 @@ body{
 .single-recipie {
     width: 29%;
     box-shadow: 2px 2px 10px gray;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 10px;
     display: inline-block;
     margin: 2%;
@@ -142,4 +145,52 @@ body{
     font-size: 18px;
     color: #18191F;
     line-height: 32px;
+}
+
+
+
+
+
+
+.customer-wrapper {
+    box-shadow: 1px 1px 10px  grey;
+    border-radius: 10px;
+    height: 155px;
+    width: 96.5%;
+    margin: 0 auto;
+}
+.single-customer {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 31px;
+}
+
+.single-customer h2 {
+    font-size: 48px;
+    color: #18191F;
+}
+
+.single-customer p {
+    color: #18191F;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+
+
+
+footer {
+    background: #0B0D17;
+    padding: 50px 0;
+}
+
+.footer-content h2 {
+    font-size: 30px;
+    color: #5B5B5B;
+    padding-bottom: 25px;
+}
+.footer-content p {
+    font-size: 16px;
+    color: #fff;
 }
