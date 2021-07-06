@@ -19,11 +19,11 @@
                         <div class="main-menu">
                             <nav>
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Foods</a></li>
-                                    <li><a href="#">Happy Customer</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#foods">Foods</a></li>
+                                    <li><a href="#table">Table Reserve</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -40,12 +40,13 @@
                         <div class="half-width">
                             <img src="img/hero1.png" alt="">
                         </div>
+
                     </div>
                 </div>
             </section>
         </header>
         <main>
-            <section class="about-area" style="background-image: url(img/about-bg.jpg);">
+            <section class="about-area" id="about" style="background-image: url(img/about-bg.jpg);">
                 <div class="container">
                     <div class="hero-wrapper">
                         <div class="about-img half-width ">
@@ -61,7 +62,7 @@
                     </div>
                 </div>
             </section>
-            <section class="recipie-area pb-100">
+            <section class="recipie-area pb-100" id="foods">
                 <div class="container">
                     <div class="section-heading text-center">
                         <h2>My recipies</h2>
@@ -96,7 +97,7 @@
                     </div>
                 </div>
             </section>
-            <section class="happy-customer pb-100">
+            <section class="happy-customer pb-100" >
                 <div class="container">
                     <div class="customer-wrapper">
                         <div class="single-customer">
@@ -114,11 +115,35 @@
                     </div>
                 </div>
             </section>
+            <section class="booking" id="table" style="background-image: url(img/banner.png);">
+                <div class="container">
+                    <div class="section-heading text-center">
+                        <h2>Book A Table</h2>
+                        <p class="pb-50">Some Trendy And Popular Courses Offerd</p>
+                    </div>
+                    <div class="booking-form">                     
+                        <div class="full-width text-center">
+                             <form action="#">
+                                <div class="form-group">
+                                    <input type="text" id="fname" name="fname" placeholder="Enter Your Name....">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" placeholder="Enter Your email....">
+                                </div>
+                                <div class="form-group">
+                                    <input type="date" id="date" name="date" placeholder="">
+                                </div>
+                            </form>
+                            <button class="btn">Submit</button>
+                         </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
-            <div class="container">
+            <div class="container" id="contact">
                 <div class="footer-content text-center">
-                    <h2> <span class="tomato">FOOD</span>   NETWORK</h2>
+                    <h2> <span class="tomato">FOOD</span> NETWORK</h2>
                     <p>Eat healthy to live healthy. Live healthy to live happy.</p>
                 </div>
             </div>
